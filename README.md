@@ -26,3 +26,18 @@ If you want to listen to multiple sims you can supply multiple --sim params, lik
 ### Pipe to Wireshark example
 `$ onomondo-live --key=onok_a1b2c3.f00ba5 --sim=012345678 - | wireshark -k -i -`
 
+## GUI Application (In Development)
+
+A cross-platform Electron-based GUI application is being developed to provide a visual interface for `onomondo-live`. The GUI wraps the CLI as a subprocess, making it resilient to changes in the underlying CLI structure.
+
+### Documentation
+
+- [GUI Architecture](./GUI_ARCHITECTURE.md) - Complete architecture documentation
+- [Development Phases](./PHASES.md) - Development phases and GitHub project setup
+- [Project Structure](./PROJECT_STRUCTURE.md) - Detailed folder structure
+- [Git Commit Plan](./GIT_COMMIT_PLAN.md) - Commit strategy and conventions
+
+### Status
+
+The GUI project is currently in the planning phase. Architecture and documentation have been established. Implementation will begin following the phased approach outlined in [PHASES.md](./PHASES.md).
+
