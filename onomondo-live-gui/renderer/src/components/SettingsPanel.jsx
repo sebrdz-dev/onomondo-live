@@ -118,40 +118,17 @@ function SettingsPanel () {
       {/* About */}
       <div className="mt-8 pt-6 border-t border-gray-200">
         <h3 className="text-lg font-semibold mb-4">About</h3>
-        <div className="text-sm text-gray-600 space-y-3">
+        <div className="text-sm text-gray-600 space-y-2">
           <div>
             <p className="font-semibold text-gray-800">Onomondo Live GUI v0.1.0</p>
             <p>Visual interface for onomondo-live</p>
           </div>
           
-          <div className="bg-gray-50 rounded-lg p-4 space-y-2">
-            <p className="font-semibold text-gray-800">Copyright Notice</p>
-            <p>Copyright © 2025 CircleGas Ltd.</p>
-            <p className="text-xs text-gray-500">All rights reserved.</p>
-            <p className="text-xs text-gray-500 mt-2">
-              This software and its associated documentation are the exclusive property of CircleGas Ltd.
-            </p>
-            <p className="text-xs text-gray-500">
-              No part of this software may be reproduced, distributed, modified, or transmitted in any form or by any means without prior written permission from CircleGas Ltd.
-            </p>
-          </div>
-
-          <div className="space-y-1 text-xs text-gray-500">
-            <p><strong>Authorized Use Only:</strong> The software is provided solely for internal business purposes of CircleGas Ltd. or as explicitly authorized in writing.</p>
-            <p><strong>No Redistribution:</strong> Redistribution, sublicensing, or commercial exploitation is not permitted without an executed agreement.</p>
-            <p><strong>No Reverse Engineering:</strong> Decompiling, disassembling, or reverse-engineering is prohibited, except where allowed by applicable law.</p>
-            <p><strong>Confidential Information:</strong> The software contains proprietary and confidential information of CircleGas Ltd.</p>
-          </div>
-
-          <div className="pt-2">
-            <p className="text-xs text-gray-500">
-              For licensing inquiries or permissions, contact:{' '}
-              <a
-                href="mailto:legal@circlegas.co"
-                className="text-blue-600 hover:underline"
-              >
-                legal@circlegas.co
-              </a>
+          <div className="text-xs text-gray-500">
+            <p>Copyright © 2025 CircleGas Ltd. All rights reserved.</p>
+            <p className="mt-1">Proprietary software. Unauthorized use, distribution, or modification prohibited.</p>
+            <p className="mt-1">
+              For licensing inquiries: <a href="mailto:legal@circlegas.co" className="text-blue-600 hover:underline">legal@circlegas.co</a>
             </p>
           </div>
 
