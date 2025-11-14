@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Electron GUI for onomondo-live - Visual interface for network packet capture",
   "main": "main/main.js",
-  "author": "",
-  "license": "MIT",
+  "author": "CircleGas Ltd.",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run dev:renderer\" \"wait-on http://localhost:5173 && npm run dev:main\"",

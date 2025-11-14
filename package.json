@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore ."
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "cookie": "^0.4.2",
     "date-fns": "^2.29.2",
