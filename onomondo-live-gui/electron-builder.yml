@@ -1,0 +1,22 @@
+appId: com.onomondo.live.gui
+productName: Onomondo Live GUI
+directories:
+  output: dist
+  buildResources: build
+files:
+  - main/**/*
+  - renderer/dist/**/*
+  - package.json
+mac:
+  category: public.app-category.networking
+  target:
+    - dmg
+  icon: renderer/public/icons/icon.icns
+win:
+  target:
+    - nsis
+  icon: renderer/public/icons/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+
